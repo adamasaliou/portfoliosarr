@@ -1,0 +1,419 @@
+
+*{
+ margin: 0;
+ pading: 0;
+ list-style: none;
+ font-family: 'Shizuru', cursive;
+ text-decoration: none;	
+ color: black;
+ 
+}
+.navbar{
+position: fixed;
+width:100%;
+background-color: rgb(143, 95, 22);
+display: flex;
+justify-content: space-between;
+height: 90px;
+
+
+
+}
+.max-width{
+ width: 1300px;
+
+ margin: auto;
+ padding: 0 80px;
+
+
+}
+ .max-width{
+ display: flex;
+ justify-content:space-between ;
+ align-content: center;
+ 
+}
+.logo {
+	color:white ;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.porto{
+	color: white;
+}
+.lo{
+ color: black;
+ 
+}
+.navbar .menu{
+	display: inline-flex;
+	margin-left:15px ;
+}
+.a1{
+ 
+color: white;
+
+transition: color 0,3s;
+display: inline-block;
+}
+.a2{
+display: inline-block;
+color: white;
+transition: color 0,3s;
+}
+.a3{
+transition: color 0,3s;	
+color: white;
+display: inline-block;
+}
+.a4{
+transition: color 0,3s;	
+color: white;
+display: inline-block;
+}
+.a5{
+	transition: color 0,3s;
+color: white;
+display: inline-block;
+
+}
+.a1:hover{
+	color: black;
+}
+.a2:hover{
+	color: black;
+}
+.a3:hover{
+	color: black;
+}
+.a4:hover{
+	color: black;
+}
+.a5:hover{
+	color: black;
+}
+.menu{
+   
+
+}
+
+
+.home0{
+
+height: 800px;
+
+background-image: url('oumba.jpg');
+display: flex;
+background-repeat: no-repeat;
+background-size: 100%;
+
+
+
+
+
+}
+.home.max-width{
+	color: white;
+	margin: auto 120px;
+	margin-right: 20px;
+
+}
+.text1{
+	font-size: 40px;
+	font-weight: 600px;
+}
+.text2{
+	font-size: 40px;
+	font-weight: 500px;
+}
+.text3{
+	font-size: 40px;
+	font-weight: 800px;
+}
+.span{
+	color: rgb(143, 95, 22);
+	font-size: 40px;
+}
+.button-one{
+	font-size: 40px;
+	font-weight: 200px;
+	background-color: rgb(143, 95, 22);
+	color: white;
+	border: 2px solid rgb(143, 95, 22);
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 20px;
+	display: inline-block;
+}
+.button-one:hover{
+	background : none;
+	color: rgb(143, 95, 22);
+	;
+}
+.apro{
+	position: relative;
+	
+	font-size: 40px;
+	font-weight: 500px;
+	margin-bottom: 60px;
+	font-family: sans-serif;
+	text-align: center;
+	text-decoration: underline rgb(143, 95, 22) ;
+	padding: 50px 150px;
+}
+.about-content{
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 150px;
+}
+.colum-left{
+	width: 45%;
+	
+}
+.img{
+	height: 400px;
+	width: 400px;
+	border-radius:6px ;
+	object-fit: cover;
+
+}
+.text2{
+	font-size: 35px;
+	font-weight: 300;
+	text-align: justify;
+	font-size: 20px;
+}
+.dow{
+	font-size: 40px;
+	font-weight: 200;
+	padding: 10px 40px;
+	background-color: rgb(143, 95, 22);
+	display: inline-block;
+	margin-top: 20px;
+	border-radius: 20px;
+	color: rgb(255, 247, 247);
+
+}.dow:hover{
+	background-color: none;
+	border: 2px rgb(143, 95, 22) solid;
+}
+.max-width{
+	display: flex;
+}
+.colum-right{
+	width: 55%;
+	padding:10px ;
+}
+.text1{
+	font-size: 50px;
+	font-weight: 50px;
+}
+.marre{
+	background-color:rgb(143, 95, 22);
+	width: 100%;
+	height: 400px;
+}
+.titre{
+	color: aliceblue;
+	text-align: center;
+	text-decoration: underline rgb(143, 95, 22);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 200px;
+	font-size: 50px;
+	margin-top: 5px;
+	
+	
+	
+}
+.profes{
+	text-align: center;
+	display: flex;
+   justify-content: space-between;
+   margin: 50px 200px;
+	
+}
+
+.crim{
+	color: rgb(143, 95, 22);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 40%;
+	margin-top: 5px;
+	
+	
+	
+
+}
+.anal{
+	background-color:rgb(250, 113, 8) ;
+	height: 160px;
+	width: 300px;
+}
+.disct{
+	font-size: 10px;
+	text-align: center;
+	margin: 10px 20px;
+	text-align-last: center;
+}
+.about{
+	margin-top: 20pxS;
+}
+.footer{
+	background-color: white;
+	width: 100%;
+	height: aoto;
+
+}
+.case{
+	text-align: center;
+	display: flex;
+	margin-left: 200px;
+	
+    padding: 50px 200px;
+  
+}
+.case1{
+	background-color:rgb(250, 113, 8);
+	height: 250px;
+	width: 170px;
+	margin-right: 8px;
+	
+	
+	
+}
+.case2{
+	background-color: rgb(250, 113, 8);
+	height: 250px;
+	width: 170px;
+	margin-right: 8px;
+	
+	
+}
+.case3{
+	background-color: rgb(250, 113, 8);
+	height: 250px;
+	width: 170px;
+	margin-right: 8px;
+	
+	
+}
+.time{
+	text-align: center;
+	font-weight: 50px;
+	
+	
+	font-size: 25px;
+	
+}
+.tim{
+	text-align: center;
+	padding: 20px 15px;
+}
+.image{
+	border-radius: 100px;
+	border: 4px dashed rgb(143, 95, 22);
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	
+	
+
+}
+.team{
+	font-size: 10px;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	margin: 10px 20px;
+	text-align-last: center;
+}
+.div{
+	padding-top: 10px;
+	margin-left: 35px;
+}
+.crem{
+	padding-top: 10px;
+	color:rgb(143, 95, 22); 
+}
+.is{
+	color:rgb(143, 95, 22) ;
+	font-size: 15px;
+}
+.cont{
+	text-align: center;
+	font-size: 20px;
+}
+.ct{
+	font-size: 25px;
+	font-weight: 50px;
+}
+.dieb{
+	font-weight: 50px;
+	font-size: 20px;
+}
+.ikon{
+	color: rgb(143, 95, 22);
+	
+	
+}
+.sms{
+background-color:rgb(143, 95, 22) ;
+border: solid 10px rgb(143, 95, 22);
+border-radius: 20px;
+width: 150px;
+	
+	
+
+}
+.sms :hover{
+	background: none;
+	color: white;
+}
+.mes{
+	text-align: center;
+	color: white;
+}
+.aboutcontent{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px 250px;
+
+}
+.crim{
+	color:rgb(143, 95, 22) ;
+}
+.input{
+	margin-left
+	: 200px;
+	padding-top: 5px;
+}
+.div{
+	margin-right: 65px;
+}
+.narie :hover{
+ background:rgb(143, 95, 22)  ;
+
+}
+.nari :hover{
+	background: burlywood;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
